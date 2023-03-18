@@ -1,0 +1,6 @@
+hi {fullname},<br/>
+<br/>
+
+please find your password below
+
+password: {recpwd}

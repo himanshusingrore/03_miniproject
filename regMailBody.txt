@@ -1,0 +1,9 @@
+hii {fullname},<br/>
+
+your registration successfull <br/>
+
+please use below details to unlock your account <br/>
+
+Temporary pwd :{temppwd} <br/>
+
+<a href="{url}">click here To unlock your account</a> <br/>

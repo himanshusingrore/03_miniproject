@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/usermanagement
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: email
+    password: password
+    properties:
+       mail:
+         smtp:
+           auth: true
+           starttls: 
+            enable: true
+        
+ #google has disable less secure app feature 
+ #ab mail kese bhejenge wihout less secure ke
+ #aap ko kuch ni krna gmail mai jaake manage account mai jaana hai
+ #fir security mai jaake signin with google mai jaake app password pr jaake ek temp passsword
+ #generate krlena hai and fir vo password isme property file mai use krna hai
+ #note:- apko app password ka option easily ni milega aap direct search krlena gmail
+ #k andr search ka option diya hoga usme
